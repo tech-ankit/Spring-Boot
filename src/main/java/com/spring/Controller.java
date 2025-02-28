@@ -12,4 +12,9 @@ public class Controller {
     public String aws(){
         return "AWS Api Triggered";
     }
+
+    @GetMapping(value = "aws2")
+    public String asw2(){
+        return "New AWS IS ADDED";
+    }
 }
