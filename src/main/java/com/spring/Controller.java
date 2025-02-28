@@ -17,4 +17,10 @@ public class Controller {
     public String asw2(){
         return "New AWS IS ADDED";
     }
+
+    @GetMapping(value = "name")
+    public String name(){
+        return "Heyy Your Name Is Printed";
+    }
+    
 }
