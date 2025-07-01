@@ -13,9 +13,9 @@ public class Controller {
         return "AWS Api Triggered";
     }
 
-    @GetMapping(value = "aws2")
+    @GetMapping(value = "ankit")
     public String asw2(){
-        return "New AWS IS ADDED";
+        return "Hello Ankit";
     }
 
     @GetMapping(value = "name")
